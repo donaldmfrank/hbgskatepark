@@ -1,3 +1,3 @@
 # hbgskatepark
 Harrisburg Skatepark
-ghfsd
+A mock skatepark website I am testing out github with. 
