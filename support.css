@@ -1,0 +1,63 @@
+html,
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+a {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* Main */
+
+.main {
+  text-align: center;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/3/3c/Pedlow_Field_Skate_Park.JPG) no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.main .container {
+  position: relative;
+  top: 100px;
+}
+
+.main h1 {
+  color: white;
+  margin: 0;
+  font-size: 150px;
+}
+
+.main p {
+  background-color: #1c1c1c;
+  color: #ffa800;
+  margin: -10 0 20px 0;
+  font-size: 25px;
+  padding: 7px;
+}
+
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+ 
+a.btn:hover {
+  background: #ffa800;
+  color: #000;
+}
+
